@@ -4,7 +4,7 @@
     <groupId>org.jboss.weld</groupId>
     <artifactId>weld-core-bom</artifactId>
     <packaging>pom</packaging>
-    <version>5.0.1.Final</version>
+    <version>5.0.1.payara-p1</version>
 
     <name>Weld Core BOM</name>
 
@@ -30,7 +30,7 @@
     </developers>
 
     <properties>
-        <weld.api.bom.version>5.0.SP2</weld.api.bom.version>
+        <weld.api.bom.version>5.0.SP3</weld.api.bom.version>
         <gpg.plugin.version>3.0.1</gpg.plugin.version>
         <jboss.releases.repo.url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</jboss.releases.repo.url>
         <jboss.snapshots.repo.url>https://repository.jboss.org/nexus/content/repositories/snapshots/</jboss.snapshots.repo.url>
@@ -126,7 +126,7 @@
         <connection>scm:git:git@github.com:weld/core.git</connection>
         <developerConnection>scm:git:git@github.com:weld/core.git</developerConnection>
         <url>scm:git:git@github.com:weld/core.git</url>
-        <tag>5.0.1.Final</tag>
+        <tag>5.0.1.payara-p1</tag>
     </scm>
 
     <profiles>
